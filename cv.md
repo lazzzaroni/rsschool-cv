@@ -19,17 +19,17 @@ Eager to learn and grow professionaly at your company with high dedication and d
 
 ## **Tech skills**
 
-- HTML / CSS / Sass Basics\
-- JavaScript Basics\
-- Git Basics\
-- VSCode Basics\
-- Figma Basics\
+- HTML / CSS / Sass Basics
+- JavaScript Basics
+- Git Basics
+- VSCode Basics
+- Figma Basics
 
 ## **Soft skills**
 
-- Scrum\
-- Agile\
-- GTD\
+- Scrum
+- Agile
+- GTD
 - Teamwork
 
 ## **Code Example**
@@ -58,5 +58,5 @@ May 2020
 
 - Belarusian, Native
 - Russian, Native
-- [English](https://www.efset.org/cert/EVqBwp), **B2**
+- English, **B2** (EF SET Certificate: [English](https://www.efset.org/cert/EVqBwp))
 - Polish, **A2**
