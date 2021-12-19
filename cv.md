@@ -58,5 +58,5 @@ May 2020
 
 - Belarusian, Native
 - Russian, Native
-- English, **B2** (EF SET Certificate: [English](https://www.efset.org/cert/EVqBwp))
+- English, **B2** ([EF SET Certificate](https://www.efset.org/cert/EVqBwp))
 - Polish, **A2**
