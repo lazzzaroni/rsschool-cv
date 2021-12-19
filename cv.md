@@ -34,6 +34,23 @@ Eager to learn and grow professionaly at your company with high dedication and d
 
 ## **Code Example**
 
+[Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001/train/javascript)
+
+```
+function solution(str){
+  arr = [];
+  for(let i = 0; i < str.length; i += 2){
+    const underline = str[i+1] || '_';
+    arr.push(str[i] + underline);
+  }
+  return arr;
+
+}
+
+solution('abc');
+solution('abcdef');
+```
+
 ## **Courses**
 
 [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://udemy-certificate.s3.amazonaws.com/pdf/UC-d0fadc43-0f58-41fe-bc3c-a6d64827d0df.pdf)\
