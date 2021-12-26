@@ -9,6 +9,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,4 +30,24 @@ main {
 
 footer {
   border: 1px solid red;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 2rem;
+  line-height: 5rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.6rem;
 }
