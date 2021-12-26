@@ -13,13 +13,20 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
+  border: 1px solid red;
 }
 
 main {
+  border: 1px solid red;
 }
 
 footer {
+  border: 1px solid red;
 }
