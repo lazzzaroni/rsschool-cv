@@ -36,13 +36,183 @@
               <a href="#courses" class="nav-link">Courses</a>
             </li>
             <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
               <a href="#languages" class="nav-link">Languages</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main><div class="container"></div></main>
+    <main>
+      <div class="container">
+        <section class="section" id="profile">
+          <h1 class="section-title">Mikalai Palakou</h1>
+          <p>Junior Frontend Developer</p>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              Location:
+              <a
+                href="https://www.google.com/maps/place/%D0%9B%D0%BE%D0%B4%D0%B7%D1%8C/@51.7730347,19.3405102,11z/data=!3m1!4b1!4m5!3m4!1s0x471bcb24754556af:0xcb7cae639b21dbac!8m2!3d51.7592485!4d19.4559833"
+                class="contacts-link"
+                target="_blank"
+                >Łódź, Poland</a
+              >
+            </li>
+            <li class="contacts-item">
+              Phone:
+              <a href="tel:+48514315684" class="contacts-link" target="_blank"
+                >+48 514 315 684</a
+              >
+            </li>
+            <li class="contacts-item">
+              E-mail:
+              <a
+                href="mailto:iamnotlazzaroni@gmail.com"
+                class="contacts-link"
+                target="_blank"
+                >iamnotlazzaroni@gmail.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              LinkedIn:
+              <a
+                href="https://www.linkedin.com/in/iamnotlazzaroni/"
+                class="contacts-link"
+                target="_blank"
+                >iamnotlazzaroni</a
+              >
+            </li>
+            <li class="contacts-item">
+              GitHub:
+              <a
+                href="https://github.com/lazzzaroni"
+                class="contacts-link"
+                target="_blank"
+                >lazzzaroni</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            Self-motivated and cheerful Junior Frontend Developer with 3+ month
+            experience of learning how to create web and mobile applications,
+            and also maintain, optimize and improve them.<br />
+            Eager to learn and grow professionaly at your company with high
+            dedication and diligence.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div>
+            <h3>Tech skills</h3>
+            <ul>
+              <li>HTML / CSS / Sass Basics</li>
+              <li>JavaScript Basics</li>
+              <li>Git Basics</li>
+              <li>VSCode Basics</li>
+              <li>Figma Basics</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Soft skills</h3>
+            <ul>
+              <li>Scrum</li>
+              <li>Agile</li>
+              <li>GTD</li>
+              <li>Teamwork</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre>
+            function solution(str){
+              arr = [];
+              for(let i = 0; i < str.length; i += 2){
+                const underline = str[i+1] || '_';
+                arr.push(str[i] + underline);
+              }
+              return arr;
+            }
+
+            solution('abc');
+            solution('abcdef');
+          </pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+            <li>
+              <a
+                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-d0fadc43-0f58-41fe-bc3c-a6d64827d0df.pdf"
+                class=""
+                target="_blank"
+                >Advanced CSS and Sass: Flexbox, Grid, Animations and More!</a
+              >
+              by Jonas Schmedtmann, <strong>Udemy</strong>
+              <p>November 2021</p>
+            </li>
+            <li>
+              <a
+                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-9a291d60-69dc-4b1c-910c-eb83d5bb6710.pdf"
+                class=""
+                target="_blank"
+                >Build Responsive Real-World Websites with HTML and CSS</a
+              >
+              by Jonas Schmedtmann, <strong>Udemy</strong>
+              <p>November 2021</p>
+            </li>
+            <li>
+              <a
+                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-ff973309-9b76-4849-abe8-f66bb39ab2c4.pdf"
+                class=""
+                target="_blank"
+                >The Complete JavaScript Course 2021: From Zero to Expert!</a
+              >
+              by Jonas Schmedtmann, <strong>Udemy</strong>
+              <p>October 2021</p>
+            </li>
+            <li>
+              Marathon HTML & CSS, <strong>GoIT</strong>
+              <p>September 2021</p>
+            </li>
+            <li>
+              IT Project-Management, <strong>LABA</strong>
+              <p>May 2020</p>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Belarusian, Native</li>
+            <li>Russian, Native</li>
+            <li>
+              English, <strong>B2</strong>
+              <span>
+                (<a
+                  href="https://www.efset.org/cert/EVqBwp"
+                  class=""
+                  target="_blank"
+                  >EF SET Certificate</a
+                >)
+              </span>
+            </li>
+            <li>Polish, <strong>A2</strong></li>
+          </ul>
+        </section>
+      </div>
+    </main>
     <footer><div class="container"></div></footer>
   </body>
 </html>
