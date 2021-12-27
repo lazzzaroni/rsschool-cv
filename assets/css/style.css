@@ -64,18 +64,46 @@ footer {
   color: #d12424;
 }
 
+/* ---------------- SIDES ---------------- */
+
 .sides {
   display: flex;
 }
 
 .left-side {
-  width: 40%;
+  max-width: 44rem;
   background-color: blueviolet;
   color: #fff;
 }
 
 .right-side {
-  width: 60%;
+  max-width: 100rem;
   background-color: #fff;
   color: blueviolet;
+}
+
+/* ---------------- LEFT SIDE ---------------- */
+
+/* ---------------- RIGHT SIDE ---------------- */
+
+/* ---------------- FOOTER ---------------- */
+
+.footer {
+  background-color: pink;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url('/assets/svg/rss.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
