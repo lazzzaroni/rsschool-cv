@@ -17,27 +17,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-}
-
-header {
-  border: 1px solid red;
-}
-
-main {
-  border: 1px solid red;
-}
-
-aside {
-  border: 1px solid red;
-}
-
-footer {
-  border: 1px solid red;
 }
 
 .container {
   max-width: 120rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   margin: 0 auto;
 }
 
@@ -59,13 +44,12 @@ footer {
   line-height: 5rem;
   text-decoration: none;
   color: #fff;
-  font-size: 1.6rem;
   cursor: pointer;
-  transition: color 0.3s;
+  transition: all 0.3s;
 }
 
 .nav__item--link:hover {
-  color: #d12424;
+  color: #ff6b08;
 }
 
 /* ---------------- SIDES ---------------- */
@@ -110,7 +94,6 @@ footer {
 .languages__title {
   font-size: 2.4rem;
   font-weight: 700;
-  line-height: 2.4rem;
   letter-spacing: normal;
   margin: 2rem 0;
 }
@@ -125,7 +108,6 @@ footer {
 .contacts__list--item,
 .skills__list--item,
 .languages__list--item {
-  font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.4rem;
 }
@@ -142,36 +124,101 @@ footer {
 .languages__list--link {
   text-decoration: none;
   color: #fff;
-  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
+.contacts__list--link:hover,
+.languages__list--link:hover {
+  color: #ff6b08;
+}
 /* ---------------- RIGHT SIDE ---------------- */
 
-.bio {
+.bio,
+.projects,
+.code {
+  line-height: 2.4rem;
   margin-bottom: 6rem;
+  padding-right: 10rem;
 }
 
 .bio__title {
   font-size: 4.4rem;
   font-weight: 700;
-  line-height: 2.4rem;
   letter-spacing: normal;
   margin: 2rem 0;
 }
 
 .bio__occupation {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  margin: 4.8rem 0;
 }
 
-.bio__about {
+.projects__title,
+.code__title,
+.education__title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  margin: 2rem 0;
+}
+
+.projects__list,
+.education__list {
+  list-style: none;
+}
+
+.education__list--item {
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.projects__list--item::before {
+  content: '\2022';
+  margin-right: 0.8rem;
+  color: #ff6b08;
+  font-size: 1.8rem;
+}
+
+.projects__list--link,
+.education__list--link {
+  display: inline-block;
+  text-decoration: none;
+  color: #2a2a2a;
+  line-height: 2.4rem;
+  transition: all 0.3s;
+}
+
+.projects__list--link:hover,
+.education__list--link:hover {
+  transform: scale(1.05);
+  color: #ff6b08;
+}
+
+.education__list--time {
+  font-weight: 400;
+}
+
+.accent {
+  color: #ff6b08;
+}
+
+.education__list--time {
+  font-style: italic;
+}
+
+.code__example {
+  background-color: #dddddd;
+  padding: 3rem;
+  border-radius: 1rem;
 }
 
 /* ---------------- FOOTER ---------------- */
 
 .footer {
   background-color: #354966;
-  padding: 2rem 4rem;
-  font-size: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
@@ -185,16 +232,16 @@ footer {
 
 .github {
   width: 9rem;
-  height: 2.5rem;
-  background-image: url('/assets/svg/github.png');
+  height: 2rem;
+  background-image: url('/assets/svg/github.svg');
   background-size: contain;
   background-repeat: no-repeat;
   filter: invert(1);
 }
 
 .rss {
-  width: 12rem;
-  height: 4.5rem;
+  width: 9rem;
+  height: 2.5rem;
   background-image: url('/assets/svg/rss.svg');
   background-size: contain;
   background-repeat: no-repeat;
