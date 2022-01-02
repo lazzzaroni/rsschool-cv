@@ -87,7 +87,8 @@ footer {
 .right-side {
   max-width: 80rem;
   background-color: #fff;
-  color: #1e2939;
+  color: #2a2a2a;
+  padding: 6rem 8rem;
 }
 
 /* ---------------- LEFT SIDE ---------------- */
@@ -146,10 +147,32 @@ footer {
 
 /* ---------------- RIGHT SIDE ---------------- */
 
+.bio {
+  margin-bottom: 6rem;
+}
+
+.bio__title {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: normal;
+  margin: 2rem 0;
+}
+
+.bio__occupation {
+  font-size: 1.6rem;
+}
+
+.bio__about {
+}
+
 /* ---------------- FOOTER ---------------- */
 
 .footer {
   background-color: #354966;
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .footer-container {
@@ -160,9 +183,18 @@ footer {
   color: #fff;
 }
 
+.github {
+  width: 9rem;
+  height: 2.5rem;
+  background-image: url('/assets/svg/github.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(1);
+}
+
 .rss {
-  width: 121px;
-  height: 45px;
+  width: 12rem;
+  height: 4.5rem;
   background-image: url('/assets/svg/rss.svg');
   background-size: contain;
   background-repeat: no-repeat;
