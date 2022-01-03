@@ -233,7 +233,7 @@ body {
 .github {
   width: 9rem;
   height: 2rem;
-  background-image: url('./assets/svg/github.svg');
+  background-image: url('../svg/github.svg');
   background-size: contain;
   background-repeat: no-repeat;
   filter: invert(1);
@@ -243,7 +243,7 @@ body {
 .rss {
   width: 9rem;
   height: 2.5rem;
-  background-image: url('./assets/svg/rss.svg');
+  background-image: url('../svg/rss.svg');
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1;
