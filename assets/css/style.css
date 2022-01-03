@@ -237,6 +237,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   filter: invert(1);
+  z-index: 1;
 }
 
 .rss {
@@ -245,4 +246,5 @@ body {
   background-image: url('/assets/svg/rss.svg');
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 1;
 }
